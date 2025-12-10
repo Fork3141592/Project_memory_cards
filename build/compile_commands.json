@@ -1,0 +1,32 @@
+[
+{
+  "directory": "D:/GitHub/Project_memory_cards/build",
+  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/flipping_cards.dir/includes_CXX.rsp -pedantic -Wall -Wextra -g -std=gnu++17 -o CMakeFiles\\flipping_cards.dir\\working_variant\\graphics.cpp.obj -c D:\\GitHub\\Project_memory_cards\\working_variant\\graphics.cpp",
+  "file": "D:/GitHub/Project_memory_cards/working_variant/graphics.cpp",
+  "output": "CMakeFiles/flipping_cards.dir/working_variant/graphics.cpp.obj"
+},
+{
+  "directory": "D:/GitHub/Project_memory_cards/build",
+  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/flipping_cards.dir/includes_CXX.rsp -pedantic -Wall -Wextra -g -std=gnu++17 -o CMakeFiles\\flipping_cards.dir\\working_variant\\logic.cpp.obj -c D:\\GitHub\\Project_memory_cards\\working_variant\\logic.cpp",
+  "file": "D:/GitHub/Project_memory_cards/working_variant/logic.cpp",
+  "output": "CMakeFiles/flipping_cards.dir/working_variant/logic.cpp.obj"
+},
+{
+  "directory": "D:/GitHub/Project_memory_cards/build",
+  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/flipping_cards.dir/includes_CXX.rsp -pedantic -Wall -Wextra -g -std=gnu++17 -o CMakeFiles\\flipping_cards.dir\\lib\\Graph_lib\\Graph.cpp.obj -c D:\\GitHub\\Project_memory_cards\\lib\\Graph_lib\\Graph.cpp",
+  "file": "D:/GitHub/Project_memory_cards/lib/Graph_lib/Graph.cpp",
+  "output": "CMakeFiles/flipping_cards.dir/lib/Graph_lib/Graph.cpp.obj"
+},
+{
+  "directory": "D:/GitHub/Project_memory_cards/build",
+  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/flipping_cards.dir/includes_CXX.rsp -pedantic -Wall -Wextra -g -std=gnu++17 -o CMakeFiles\\flipping_cards.dir\\lib\\Graph_lib\\GUI.cpp.obj -c D:\\GitHub\\Project_memory_cards\\lib\\Graph_lib\\GUI.cpp",
+  "file": "D:/GitHub/Project_memory_cards/lib/Graph_lib/GUI.cpp",
+  "output": "CMakeFiles/flipping_cards.dir/lib/Graph_lib/GUI.cpp.obj"
+},
+{
+  "directory": "D:/GitHub/Project_memory_cards/build",
+  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/flipping_cards.dir/includes_CXX.rsp -pedantic -Wall -Wextra -g -std=gnu++17 -o CMakeFiles\\flipping_cards.dir\\lib\\Graph_lib\\Window.cpp.obj -c D:\\GitHub\\Project_memory_cards\\lib\\Graph_lib\\Window.cpp",
+  "file": "D:/GitHub/Project_memory_cards/lib/Graph_lib/Window.cpp",
+  "output": "CMakeFiles/flipping_cards.dir/lib/Graph_lib/Window.cpp.obj"
+}
+]

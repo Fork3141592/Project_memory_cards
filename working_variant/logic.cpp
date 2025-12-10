@@ -1,4 +1,4 @@
-#include "game_card2.h"
+#include "game_card.h"
 #include <cstdlib>
 #include <ctime>
 #include <algorithm>

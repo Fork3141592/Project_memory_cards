@@ -1,0 +1,7 @@
+D:/GitHub/Project_memory_cards/build/CMakeFiles/flipping_cards.dir
+D:/GitHub/Project_memory_cards/build/CMakeFiles/edit_cache.dir
+D:/GitHub/Project_memory_cards/build/CMakeFiles/rebuild_cache.dir
+D:/GitHub/Project_memory_cards/build/CMakeFiles/list_install_components.dir
+D:/GitHub/Project_memory_cards/build/CMakeFiles/install.dir
+D:/GitHub/Project_memory_cards/build/CMakeFiles/install/local.dir
+D:/GitHub/Project_memory_cards/build/CMakeFiles/install/strip.dir

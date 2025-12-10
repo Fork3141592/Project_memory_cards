@@ -1,8 +1,8 @@
 #ifndef GAME_H
 #define GAME_H
 
-#include "Graph_lib/GUI.h"
-#include "Graph_lib/Graph.h"
+#include "GUI.h"
+#include "Graph.h"
 #include <vector>
 #include <string>
 
