@@ -8,11 +8,11 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "D:/GitHub/Project_memory_cards/lib/Graph_lib/GUI.cpp" "CMakeFiles/flipping_cards.dir/lib/Graph_lib/GUI.cpp.obj" "gcc" "CMakeFiles/flipping_cards.dir/lib/Graph_lib/GUI.cpp.obj.d"
-  "D:/GitHub/Project_memory_cards/lib/Graph_lib/Graph.cpp" "CMakeFiles/flipping_cards.dir/lib/Graph_lib/Graph.cpp.obj" "gcc" "CMakeFiles/flipping_cards.dir/lib/Graph_lib/Graph.cpp.obj.d"
-  "D:/GitHub/Project_memory_cards/lib/Graph_lib/Window.cpp" "CMakeFiles/flipping_cards.dir/lib/Graph_lib/Window.cpp.obj" "gcc" "CMakeFiles/flipping_cards.dir/lib/Graph_lib/Window.cpp.obj.d"
-  "D:/GitHub/Project_memory_cards/working_variant/graphics.cpp" "CMakeFiles/flipping_cards.dir/working_variant/graphics.cpp.obj" "gcc" "CMakeFiles/flipping_cards.dir/working_variant/graphics.cpp.obj.d"
-  "D:/GitHub/Project_memory_cards/working_variant/logic.cpp" "CMakeFiles/flipping_cards.dir/working_variant/logic.cpp.obj" "gcc" "CMakeFiles/flipping_cards.dir/working_variant/logic.cpp.obj.d"
+  "D:/GitHub/project_copy/lib/Graph_lib/GUI.cpp" "CMakeFiles/flipping_cards.dir/lib/Graph_lib/GUI.cpp.obj" "gcc" "CMakeFiles/flipping_cards.dir/lib/Graph_lib/GUI.cpp.obj.d"
+  "D:/GitHub/project_copy/lib/Graph_lib/Graph.cpp" "CMakeFiles/flipping_cards.dir/lib/Graph_lib/Graph.cpp.obj" "gcc" "CMakeFiles/flipping_cards.dir/lib/Graph_lib/Graph.cpp.obj.d"
+  "D:/GitHub/project_copy/lib/Graph_lib/Window.cpp" "CMakeFiles/flipping_cards.dir/lib/Graph_lib/Window.cpp.obj" "gcc" "CMakeFiles/flipping_cards.dir/lib/Graph_lib/Window.cpp.obj.d"
+  "D:/GitHub/project_copy/working_variant/graphics.cpp" "CMakeFiles/flipping_cards.dir/working_variant/graphics.cpp.obj" "gcc" "CMakeFiles/flipping_cards.dir/working_variant/graphics.cpp.obj.d"
+  "D:/GitHub/project_copy/working_variant/logic.cpp" "CMakeFiles/flipping_cards.dir/working_variant/logic.cpp.obj" "gcc" "CMakeFiles/flipping_cards.dir/working_variant/logic.cpp.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

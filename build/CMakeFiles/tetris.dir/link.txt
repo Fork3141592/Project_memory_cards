@@ -1,3 +1,0 @@
-C:\mingw64_ucrt14.2\mingw64\bin\cmake.exe -E rm -f CMakeFiles\tetris.dir/objects.a
-C:\mingw64\bin\ar.exe qc CMakeFiles\tetris.dir/objects.a @CMakeFiles\tetris.dir\objects1.rsp
-C:\mingw64\bin\g++.exe -pedantic -Wall -Wextra -g -Wl,--whole-archive CMakeFiles\tetris.dir/objects.a -Wl,--no-whole-archive -o tetris.exe -Wl,--out-implib,libtetris.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\tetris.dir\linkLibs.rsp

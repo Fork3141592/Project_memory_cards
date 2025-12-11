@@ -1,5 +1,5 @@
 CMakeFiles/flipping_cards.dir/lib/Graph_lib/Graph.cpp.obj: \
- D:\GitHub\Project_memory_cards\lib\Graph_lib\Graph.cpp \
+ D:\GitHub\project_copy\lib\Graph_lib\Graph.cpp \
  C:/mingw64/include/c++/15.2.0/algorithm \
  C:/mingw64/include/c++/15.2.0/bits/stl_algobase.h \
  C:/mingw64/include/c++/15.2.0/x86_64-w64-mingw32/bits/c++config.h \
@@ -194,7 +194,7 @@ CMakeFiles/flipping_cards.dir/lib/Graph_lib/Graph.cpp.obj: \
  C:/mingw64/include/c++/15.2.0/numeric \
  C:/mingw64/include/c++/15.2.0/bits/stl_numeric.h \
  C:/mingw64/include/c++/15.2.0/pstl/glue_numeric_defs.h \
- D:\GitHub\Project_memory_cards\lib\Graph_lib\Graph.h \
+ D:\GitHub\project_copy\lib\Graph_lib\Graph.h \
  C:/mingw64/include/c++/15.2.0/functional \
  C:/mingw64/include/c++/15.2.0/bits/std_function.h \
  C:/mingw64/include/c++/15.2.0/unordered_map \
@@ -204,8 +204,8 @@ CMakeFiles/flipping_cards.dir/lib/Graph_lib/Graph.cpp.obj: \
  C:/mingw64/include/c++/15.2.0/bits/enable_special_members.h \
  C:/mingw64/include/c++/15.2.0/array \
  C:/mingw64/include/c++/15.2.0/compare \
- D:\GitHub\Project_memory_cards\lib\Graph_lib\Point.h \
- D:\GitHub\Project_memory_cards\lib\Graph_lib\fltk.h \
+ D:\GitHub\project_copy\lib\Graph_lib\Point.h \
+ D:\GitHub\project_copy\lib\Graph_lib\fltk.h \
  C:/PROGRA~2/fltk/include/FL/Enumerations.H \
  C:/PROGRA~2/fltk/include/FL/fl_config.h \
  C:/PROGRA~2/fltk/include/FL/Fl_Export.H \

@@ -1,7 +1,7 @@
 CMakeFiles/flipping_cards.dir/lib/Graph_lib/Window.cpp.obj: \
- D:\GitHub\Project_memory_cards\lib\Graph_lib\Window.cpp \
- D:\GitHub\Project_memory_cards\lib\Graph_lib\GUI.h \
- D:\GitHub\Project_memory_cards\lib\Graph_lib\Graph.h \
+ D:\GitHub\project_copy\lib\Graph_lib\Window.cpp \
+ D:\GitHub\project_copy\lib\Graph_lib\GUI.h \
+ D:\GitHub\project_copy\lib\Graph_lib\Graph.h \
  C:/mingw64/include/c++/15.2.0/cmath \
  C:/mingw64/include/c++/15.2.0/bits/requires_hosted.h \
  C:/mingw64/include/c++/15.2.0/x86_64-w64-mingw32/bits/c++config.h \
@@ -135,8 +135,8 @@ CMakeFiles/flipping_cards.dir/lib/Graph_lib/Window.cpp.obj: \
  C:/mingw64/include/c++/15.2.0/cerrno \
  C:/mingw64/include/c++/15.2.0/bits/charconv.h \
  C:/mingw64/include/c++/15.2.0/bits/basic_string.tcc \
- D:\GitHub\Project_memory_cards\lib\Graph_lib\Point.h \
- D:\GitHub\Project_memory_cards\lib\Graph_lib\fltk.h \
+ D:\GitHub\project_copy\lib\Graph_lib\Point.h \
+ D:\GitHub\project_copy\lib\Graph_lib\fltk.h \
  C:/PROGRA~2/fltk/include/FL/Enumerations.H \
  C:/PROGRA~2/fltk/include/FL/fl_config.h \
  C:/PROGRA~2/fltk/include/FL/Fl_Export.H \
@@ -185,4 +185,4 @@ CMakeFiles/flipping_cards.dir/lib/Graph_lib/Window.cpp.obj: \
  C:/PROGRA~2/fltk/include/FL/Fl_Pixmap.H \
  C:/PROGRA~2/fltk/include/FL/Fl_JPEG_Image.H \
  C:/PROGRA~2/fltk/include/FL/Fl_PNG_Image.H \
- D:\GitHub\Project_memory_cards\lib\Graph_lib\Window.h
+ D:\GitHub\project_copy\lib\Graph_lib\Window.h

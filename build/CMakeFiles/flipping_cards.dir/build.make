@@ -52,10 +52,10 @@ RM = C:\mingw64_ucrt14.2\mingw64\bin\cmake.exe -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\GitHub\Project_memory_cards
+CMAKE_SOURCE_DIR = D:\GitHub\project_copy
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\GitHub\Project_memory_cards\build
+CMAKE_BINARY_DIR = D:\GitHub\project_copy\build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/flipping_cards.dir/depend.make
@@ -70,78 +70,78 @@ include CMakeFiles/flipping_cards.dir/flags.make
 
 CMakeFiles/flipping_cards.dir/working_variant/graphics.cpp.obj: CMakeFiles/flipping_cards.dir/flags.make
 CMakeFiles/flipping_cards.dir/working_variant/graphics.cpp.obj: CMakeFiles/flipping_cards.dir/includes_CXX.rsp
-CMakeFiles/flipping_cards.dir/working_variant/graphics.cpp.obj: D:/GitHub/Project_memory_cards/working_variant/graphics.cpp
+CMakeFiles/flipping_cards.dir/working_variant/graphics.cpp.obj: D:/GitHub/project_copy/working_variant/graphics.cpp
 CMakeFiles/flipping_cards.dir/working_variant/graphics.cpp.obj: CMakeFiles/flipping_cards.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\GitHub\Project_memory_cards\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/flipping_cards.dir/working_variant/graphics.cpp.obj"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/flipping_cards.dir/working_variant/graphics.cpp.obj -MF CMakeFiles\flipping_cards.dir\working_variant\graphics.cpp.obj.d -o CMakeFiles\flipping_cards.dir\working_variant\graphics.cpp.obj -c D:\GitHub\Project_memory_cards\working_variant\graphics.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\GitHub\project_copy\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/flipping_cards.dir/working_variant/graphics.cpp.obj"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/flipping_cards.dir/working_variant/graphics.cpp.obj -MF CMakeFiles\flipping_cards.dir\working_variant\graphics.cpp.obj.d -o CMakeFiles\flipping_cards.dir\working_variant\graphics.cpp.obj -c D:\GitHub\project_copy\working_variant\graphics.cpp
 
 CMakeFiles/flipping_cards.dir/working_variant/graphics.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/flipping_cards.dir/working_variant/graphics.cpp.i"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\GitHub\Project_memory_cards\working_variant\graphics.cpp > CMakeFiles\flipping_cards.dir\working_variant\graphics.cpp.i
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\GitHub\project_copy\working_variant\graphics.cpp > CMakeFiles\flipping_cards.dir\working_variant\graphics.cpp.i
 
 CMakeFiles/flipping_cards.dir/working_variant/graphics.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/flipping_cards.dir/working_variant/graphics.cpp.s"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\GitHub\Project_memory_cards\working_variant\graphics.cpp -o CMakeFiles\flipping_cards.dir\working_variant\graphics.cpp.s
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\GitHub\project_copy\working_variant\graphics.cpp -o CMakeFiles\flipping_cards.dir\working_variant\graphics.cpp.s
 
 CMakeFiles/flipping_cards.dir/working_variant/logic.cpp.obj: CMakeFiles/flipping_cards.dir/flags.make
 CMakeFiles/flipping_cards.dir/working_variant/logic.cpp.obj: CMakeFiles/flipping_cards.dir/includes_CXX.rsp
-CMakeFiles/flipping_cards.dir/working_variant/logic.cpp.obj: D:/GitHub/Project_memory_cards/working_variant/logic.cpp
+CMakeFiles/flipping_cards.dir/working_variant/logic.cpp.obj: D:/GitHub/project_copy/working_variant/logic.cpp
 CMakeFiles/flipping_cards.dir/working_variant/logic.cpp.obj: CMakeFiles/flipping_cards.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\GitHub\Project_memory_cards\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/flipping_cards.dir/working_variant/logic.cpp.obj"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/flipping_cards.dir/working_variant/logic.cpp.obj -MF CMakeFiles\flipping_cards.dir\working_variant\logic.cpp.obj.d -o CMakeFiles\flipping_cards.dir\working_variant\logic.cpp.obj -c D:\GitHub\Project_memory_cards\working_variant\logic.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\GitHub\project_copy\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/flipping_cards.dir/working_variant/logic.cpp.obj"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/flipping_cards.dir/working_variant/logic.cpp.obj -MF CMakeFiles\flipping_cards.dir\working_variant\logic.cpp.obj.d -o CMakeFiles\flipping_cards.dir\working_variant\logic.cpp.obj -c D:\GitHub\project_copy\working_variant\logic.cpp
 
 CMakeFiles/flipping_cards.dir/working_variant/logic.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/flipping_cards.dir/working_variant/logic.cpp.i"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\GitHub\Project_memory_cards\working_variant\logic.cpp > CMakeFiles\flipping_cards.dir\working_variant\logic.cpp.i
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\GitHub\project_copy\working_variant\logic.cpp > CMakeFiles\flipping_cards.dir\working_variant\logic.cpp.i
 
 CMakeFiles/flipping_cards.dir/working_variant/logic.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/flipping_cards.dir/working_variant/logic.cpp.s"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\GitHub\Project_memory_cards\working_variant\logic.cpp -o CMakeFiles\flipping_cards.dir\working_variant\logic.cpp.s
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\GitHub\project_copy\working_variant\logic.cpp -o CMakeFiles\flipping_cards.dir\working_variant\logic.cpp.s
 
 CMakeFiles/flipping_cards.dir/lib/Graph_lib/Graph.cpp.obj: CMakeFiles/flipping_cards.dir/flags.make
 CMakeFiles/flipping_cards.dir/lib/Graph_lib/Graph.cpp.obj: CMakeFiles/flipping_cards.dir/includes_CXX.rsp
-CMakeFiles/flipping_cards.dir/lib/Graph_lib/Graph.cpp.obj: D:/GitHub/Project_memory_cards/lib/Graph_lib/Graph.cpp
+CMakeFiles/flipping_cards.dir/lib/Graph_lib/Graph.cpp.obj: D:/GitHub/project_copy/lib/Graph_lib/Graph.cpp
 CMakeFiles/flipping_cards.dir/lib/Graph_lib/Graph.cpp.obj: CMakeFiles/flipping_cards.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\GitHub\Project_memory_cards\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/flipping_cards.dir/lib/Graph_lib/Graph.cpp.obj"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/flipping_cards.dir/lib/Graph_lib/Graph.cpp.obj -MF CMakeFiles\flipping_cards.dir\lib\Graph_lib\Graph.cpp.obj.d -o CMakeFiles\flipping_cards.dir\lib\Graph_lib\Graph.cpp.obj -c D:\GitHub\Project_memory_cards\lib\Graph_lib\Graph.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\GitHub\project_copy\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/flipping_cards.dir/lib/Graph_lib/Graph.cpp.obj"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/flipping_cards.dir/lib/Graph_lib/Graph.cpp.obj -MF CMakeFiles\flipping_cards.dir\lib\Graph_lib\Graph.cpp.obj.d -o CMakeFiles\flipping_cards.dir\lib\Graph_lib\Graph.cpp.obj -c D:\GitHub\project_copy\lib\Graph_lib\Graph.cpp
 
 CMakeFiles/flipping_cards.dir/lib/Graph_lib/Graph.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/flipping_cards.dir/lib/Graph_lib/Graph.cpp.i"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\GitHub\Project_memory_cards\lib\Graph_lib\Graph.cpp > CMakeFiles\flipping_cards.dir\lib\Graph_lib\Graph.cpp.i
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\GitHub\project_copy\lib\Graph_lib\Graph.cpp > CMakeFiles\flipping_cards.dir\lib\Graph_lib\Graph.cpp.i
 
 CMakeFiles/flipping_cards.dir/lib/Graph_lib/Graph.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/flipping_cards.dir/lib/Graph_lib/Graph.cpp.s"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\GitHub\Project_memory_cards\lib\Graph_lib\Graph.cpp -o CMakeFiles\flipping_cards.dir\lib\Graph_lib\Graph.cpp.s
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\GitHub\project_copy\lib\Graph_lib\Graph.cpp -o CMakeFiles\flipping_cards.dir\lib\Graph_lib\Graph.cpp.s
 
 CMakeFiles/flipping_cards.dir/lib/Graph_lib/GUI.cpp.obj: CMakeFiles/flipping_cards.dir/flags.make
 CMakeFiles/flipping_cards.dir/lib/Graph_lib/GUI.cpp.obj: CMakeFiles/flipping_cards.dir/includes_CXX.rsp
-CMakeFiles/flipping_cards.dir/lib/Graph_lib/GUI.cpp.obj: D:/GitHub/Project_memory_cards/lib/Graph_lib/GUI.cpp
+CMakeFiles/flipping_cards.dir/lib/Graph_lib/GUI.cpp.obj: D:/GitHub/project_copy/lib/Graph_lib/GUI.cpp
 CMakeFiles/flipping_cards.dir/lib/Graph_lib/GUI.cpp.obj: CMakeFiles/flipping_cards.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\GitHub\Project_memory_cards\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/flipping_cards.dir/lib/Graph_lib/GUI.cpp.obj"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/flipping_cards.dir/lib/Graph_lib/GUI.cpp.obj -MF CMakeFiles\flipping_cards.dir\lib\Graph_lib\GUI.cpp.obj.d -o CMakeFiles\flipping_cards.dir\lib\Graph_lib\GUI.cpp.obj -c D:\GitHub\Project_memory_cards\lib\Graph_lib\GUI.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\GitHub\project_copy\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/flipping_cards.dir/lib/Graph_lib/GUI.cpp.obj"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/flipping_cards.dir/lib/Graph_lib/GUI.cpp.obj -MF CMakeFiles\flipping_cards.dir\lib\Graph_lib\GUI.cpp.obj.d -o CMakeFiles\flipping_cards.dir\lib\Graph_lib\GUI.cpp.obj -c D:\GitHub\project_copy\lib\Graph_lib\GUI.cpp
 
 CMakeFiles/flipping_cards.dir/lib/Graph_lib/GUI.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/flipping_cards.dir/lib/Graph_lib/GUI.cpp.i"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\GitHub\Project_memory_cards\lib\Graph_lib\GUI.cpp > CMakeFiles\flipping_cards.dir\lib\Graph_lib\GUI.cpp.i
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\GitHub\project_copy\lib\Graph_lib\GUI.cpp > CMakeFiles\flipping_cards.dir\lib\Graph_lib\GUI.cpp.i
 
 CMakeFiles/flipping_cards.dir/lib/Graph_lib/GUI.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/flipping_cards.dir/lib/Graph_lib/GUI.cpp.s"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\GitHub\Project_memory_cards\lib\Graph_lib\GUI.cpp -o CMakeFiles\flipping_cards.dir\lib\Graph_lib\GUI.cpp.s
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\GitHub\project_copy\lib\Graph_lib\GUI.cpp -o CMakeFiles\flipping_cards.dir\lib\Graph_lib\GUI.cpp.s
 
 CMakeFiles/flipping_cards.dir/lib/Graph_lib/Window.cpp.obj: CMakeFiles/flipping_cards.dir/flags.make
 CMakeFiles/flipping_cards.dir/lib/Graph_lib/Window.cpp.obj: CMakeFiles/flipping_cards.dir/includes_CXX.rsp
-CMakeFiles/flipping_cards.dir/lib/Graph_lib/Window.cpp.obj: D:/GitHub/Project_memory_cards/lib/Graph_lib/Window.cpp
+CMakeFiles/flipping_cards.dir/lib/Graph_lib/Window.cpp.obj: D:/GitHub/project_copy/lib/Graph_lib/Window.cpp
 CMakeFiles/flipping_cards.dir/lib/Graph_lib/Window.cpp.obj: CMakeFiles/flipping_cards.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\GitHub\Project_memory_cards\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/flipping_cards.dir/lib/Graph_lib/Window.cpp.obj"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/flipping_cards.dir/lib/Graph_lib/Window.cpp.obj -MF CMakeFiles\flipping_cards.dir\lib\Graph_lib\Window.cpp.obj.d -o CMakeFiles\flipping_cards.dir\lib\Graph_lib\Window.cpp.obj -c D:\GitHub\Project_memory_cards\lib\Graph_lib\Window.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\GitHub\project_copy\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/flipping_cards.dir/lib/Graph_lib/Window.cpp.obj"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/flipping_cards.dir/lib/Graph_lib/Window.cpp.obj -MF CMakeFiles\flipping_cards.dir\lib\Graph_lib\Window.cpp.obj.d -o CMakeFiles\flipping_cards.dir\lib\Graph_lib\Window.cpp.obj -c D:\GitHub\project_copy\lib\Graph_lib\Window.cpp
 
 CMakeFiles/flipping_cards.dir/lib/Graph_lib/Window.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/flipping_cards.dir/lib/Graph_lib/Window.cpp.i"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\GitHub\Project_memory_cards\lib\Graph_lib\Window.cpp > CMakeFiles\flipping_cards.dir\lib\Graph_lib\Window.cpp.i
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\GitHub\project_copy\lib\Graph_lib\Window.cpp > CMakeFiles\flipping_cards.dir\lib\Graph_lib\Window.cpp.i
 
 CMakeFiles/flipping_cards.dir/lib/Graph_lib/Window.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/flipping_cards.dir/lib/Graph_lib/Window.cpp.s"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\GitHub\Project_memory_cards\lib\Graph_lib\Window.cpp -o CMakeFiles\flipping_cards.dir\lib\Graph_lib\Window.cpp.s
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\GitHub\project_copy\lib\Graph_lib\Window.cpp -o CMakeFiles\flipping_cards.dir\lib\Graph_lib\Window.cpp.s
 
 # Object files for target flipping_cards
 flipping_cards_OBJECTS = \
@@ -167,7 +167,7 @@ flipping_cards.exe: C:/Program\ Files\ (x86)/fltk/lib/libfltk.a
 flipping_cards.exe: CMakeFiles/flipping_cards.dir/linkLibs.rsp
 flipping_cards.exe: CMakeFiles/flipping_cards.dir/objects1.rsp
 flipping_cards.exe: CMakeFiles/flipping_cards.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=D:\GitHub\Project_memory_cards\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable flipping_cards.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=D:\GitHub\project_copy\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable flipping_cards.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\flipping_cards.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -179,6 +179,6 @@ CMakeFiles/flipping_cards.dir/clean:
 .PHONY : CMakeFiles/flipping_cards.dir/clean
 
 CMakeFiles/flipping_cards.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" D:\GitHub\Project_memory_cards D:\GitHub\Project_memory_cards D:\GitHub\Project_memory_cards\build D:\GitHub\Project_memory_cards\build D:\GitHub\Project_memory_cards\build\CMakeFiles\flipping_cards.dir\DependInfo.cmake "--color=$(COLOR)"
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" D:\GitHub\project_copy D:\GitHub\project_copy D:\GitHub\project_copy\build D:\GitHub\project_copy\build D:\GitHub\project_copy\build\CMakeFiles\flipping_cards.dir\DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/flipping_cards.dir/depend
 

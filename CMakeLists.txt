@@ -49,3 +49,8 @@ if(CMAKE_SYSTEM_NAME STREQUAL "Windows")
 endif()
 
 install(TARGETS ${TARGET})
+
+file(COPY ${CMAKE_SOURCE_DIR}/images DESTINATION ${CMAKE_BINARY_DIR}) ##для видимости картинок
+
+add_subdirectory(tests) ##для тестов
+

@@ -1,10 +1,14 @@
 #ifndef GAME_H
 #define GAME_H
 
-#include "GUI.h"
+//#include "Graph_lib/GUI.h" 
+//#include "Graph_lib/Graph.h"
+#include "GUI.h" 
 #include "Graph.h"
 #include <vector>
 #include <string>
+
+
 
 // Константы для игрового поля
 const int CARD_WIDTH = 70;
@@ -16,14 +20,15 @@ const int TOTAL_CARDS = 20;
 // Структура для хранения состояния карточки
 struct CardState {
     Graph_lib::Rectangle* rect;
-    Graph_lib::Text* text;
+    Graph_lib::Image* img;  // ИЗМЕНЕНО: теперь используем Image вместо Text
     Graph_lib::Button* button;
     bool flipped;
     bool removed;
     int value;
+    bool image_attached;  // НОВОЕ: флаг прикрепленности изображения
 };
 
-// Глобальные переменные (будут объявлены как extern)
+// Глобальные переменные
 extern Graph_lib::Window* main_window;
 extern std::vector<Graph_lib::Shape*> shapes_to_delete;
 extern std::vector<Graph_lib::Widget*> widgets_to_delete;
@@ -32,7 +37,7 @@ extern std::vector<int> selected_cards;
 extern bool can_flip;
 extern int attempts_counter;
 extern bool showing_initial_twos;
-extern Graph_lib::Callback card_callbacks[TOTAL_CARDS]; // ДОБАВЛЕНО
+extern Graph_lib::Callback card_callbacks[TOTAL_CARDS];
 
 // Прототипы функций - Логика игры
 void handle_card_click(int card_index);
@@ -42,7 +47,8 @@ void check_game_completion();
 void flip_card_down(int card_index);
 void remove_card(int card_index);
 void shuffle_remaining_cards();
-void update_card_display(int card_index); // НОВАЯ ФУНКЦИЯ
+void update_card_display(int card_index);
+std::string get_image_path(int value);  // НОВАЯ ФУНКЦИЯ: получение пути к картинке
 
 // Callback функции для логики
 void check_match_callback(void*);

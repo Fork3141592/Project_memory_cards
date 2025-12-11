@@ -1,32 +1,56 @@
 [
 {
-  "directory": "D:/GitHub/Project_memory_cards/build",
-  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/flipping_cards.dir/includes_CXX.rsp -pedantic -Wall -Wextra -g -std=gnu++17 -o CMakeFiles\\flipping_cards.dir\\working_variant\\graphics.cpp.obj -c D:\\GitHub\\Project_memory_cards\\working_variant\\graphics.cpp",
-  "file": "D:/GitHub/Project_memory_cards/working_variant/graphics.cpp",
+  "directory": "D:/GitHub/project_copy/build",
+  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/flipping_cards.dir/includes_CXX.rsp -pedantic -Wall -Wextra -g -std=gnu++17 -o CMakeFiles\\flipping_cards.dir\\working_variant\\graphics.cpp.obj -c D:\\GitHub\\project_copy\\working_variant\\graphics.cpp",
+  "file": "D:/GitHub/project_copy/working_variant/graphics.cpp",
   "output": "CMakeFiles/flipping_cards.dir/working_variant/graphics.cpp.obj"
 },
 {
-  "directory": "D:/GitHub/Project_memory_cards/build",
-  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/flipping_cards.dir/includes_CXX.rsp -pedantic -Wall -Wextra -g -std=gnu++17 -o CMakeFiles\\flipping_cards.dir\\working_variant\\logic.cpp.obj -c D:\\GitHub\\Project_memory_cards\\working_variant\\logic.cpp",
-  "file": "D:/GitHub/Project_memory_cards/working_variant/logic.cpp",
+  "directory": "D:/GitHub/project_copy/build",
+  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/flipping_cards.dir/includes_CXX.rsp -pedantic -Wall -Wextra -g -std=gnu++17 -o CMakeFiles\\flipping_cards.dir\\working_variant\\logic.cpp.obj -c D:\\GitHub\\project_copy\\working_variant\\logic.cpp",
+  "file": "D:/GitHub/project_copy/working_variant/logic.cpp",
   "output": "CMakeFiles/flipping_cards.dir/working_variant/logic.cpp.obj"
 },
 {
-  "directory": "D:/GitHub/Project_memory_cards/build",
-  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/flipping_cards.dir/includes_CXX.rsp -pedantic -Wall -Wextra -g -std=gnu++17 -o CMakeFiles\\flipping_cards.dir\\lib\\Graph_lib\\Graph.cpp.obj -c D:\\GitHub\\Project_memory_cards\\lib\\Graph_lib\\Graph.cpp",
-  "file": "D:/GitHub/Project_memory_cards/lib/Graph_lib/Graph.cpp",
+  "directory": "D:/GitHub/project_copy/build",
+  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/flipping_cards.dir/includes_CXX.rsp -pedantic -Wall -Wextra -g -std=gnu++17 -o CMakeFiles\\flipping_cards.dir\\lib\\Graph_lib\\Graph.cpp.obj -c D:\\GitHub\\project_copy\\lib\\Graph_lib\\Graph.cpp",
+  "file": "D:/GitHub/project_copy/lib/Graph_lib/Graph.cpp",
   "output": "CMakeFiles/flipping_cards.dir/lib/Graph_lib/Graph.cpp.obj"
 },
 {
-  "directory": "D:/GitHub/Project_memory_cards/build",
-  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/flipping_cards.dir/includes_CXX.rsp -pedantic -Wall -Wextra -g -std=gnu++17 -o CMakeFiles\\flipping_cards.dir\\lib\\Graph_lib\\GUI.cpp.obj -c D:\\GitHub\\Project_memory_cards\\lib\\Graph_lib\\GUI.cpp",
-  "file": "D:/GitHub/Project_memory_cards/lib/Graph_lib/GUI.cpp",
+  "directory": "D:/GitHub/project_copy/build",
+  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/flipping_cards.dir/includes_CXX.rsp -pedantic -Wall -Wextra -g -std=gnu++17 -o CMakeFiles\\flipping_cards.dir\\lib\\Graph_lib\\GUI.cpp.obj -c D:\\GitHub\\project_copy\\lib\\Graph_lib\\GUI.cpp",
+  "file": "D:/GitHub/project_copy/lib/Graph_lib/GUI.cpp",
   "output": "CMakeFiles/flipping_cards.dir/lib/Graph_lib/GUI.cpp.obj"
 },
 {
-  "directory": "D:/GitHub/Project_memory_cards/build",
-  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/flipping_cards.dir/includes_CXX.rsp -pedantic -Wall -Wextra -g -std=gnu++17 -o CMakeFiles\\flipping_cards.dir\\lib\\Graph_lib\\Window.cpp.obj -c D:\\GitHub\\Project_memory_cards\\lib\\Graph_lib\\Window.cpp",
-  "file": "D:/GitHub/Project_memory_cards/lib/Graph_lib/Window.cpp",
+  "directory": "D:/GitHub/project_copy/build",
+  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/flipping_cards.dir/includes_CXX.rsp -pedantic -Wall -Wextra -g -std=gnu++17 -o CMakeFiles\\flipping_cards.dir\\lib\\Graph_lib\\Window.cpp.obj -c D:\\GitHub\\project_copy\\lib\\Graph_lib\\Window.cpp",
+  "file": "D:/GitHub/project_copy/lib/Graph_lib/Window.cpp",
   "output": "CMakeFiles/flipping_cards.dir/lib/Graph_lib/Window.cpp.obj"
+},
+{
+  "directory": "D:/GitHub/project_copy/build/tests",
+  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/run_tests.dir/includes_CXX.rsp -pedantic -Wall -Wextra -g -std=gnu++17 -o CMakeFiles\\run_tests.dir\\test_main.cpp.obj -c D:\\GitHub\\project_copy\\tests\\test_main.cpp",
+  "file": "D:/GitHub/project_copy/tests/test_main.cpp",
+  "output": "tests/CMakeFiles/run_tests.dir/test_main.cpp.obj"
+},
+{
+  "directory": "D:/GitHub/project_copy/build/tests",
+  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/run_tests.dir/includes_CXX.rsp -pedantic -Wall -Wextra -g -std=gnu++17 -o CMakeFiles\\run_tests.dir\\card_actions.cpp.obj -c D:\\GitHub\\project_copy\\tests\\card_actions.cpp",
+  "file": "D:/GitHub/project_copy/tests/card_actions.cpp",
+  "output": "tests/CMakeFiles/run_tests.dir/card_actions.cpp.obj"
+},
+{
+  "directory": "D:/GitHub/project_copy/build/tests",
+  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/run_tests.dir/includes_CXX.rsp -pedantic -Wall -Wextra -g -std=gnu++17 -o CMakeFiles\\run_tests.dir\\card_logic_tests.cpp.obj -c D:\\GitHub\\project_copy\\tests\\card_logic_tests.cpp",
+  "file": "D:/GitHub/project_copy/tests/card_logic_tests.cpp",
+  "output": "tests/CMakeFiles/run_tests.dir/card_logic_tests.cpp.obj"
+},
+{
+  "directory": "D:/GitHub/project_copy/build/tests",
+  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/run_tests.dir/includes_CXX.rsp -pedantic -Wall -Wextra -g -std=gnu++17 -o CMakeFiles\\run_tests.dir\\mocks.cpp.obj -c D:\\GitHub\\project_copy\\tests\\mocks.cpp",
+  "file": "D:/GitHub/project_copy/tests/mocks.cpp",
+  "output": "tests/CMakeFiles/run_tests.dir/mocks.cpp.obj"
 }
 ]

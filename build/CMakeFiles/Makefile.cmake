@@ -30,10 +30,11 @@ set(CMAKE_MAKEFILE_DEPENDS
   "C:/mingw64_ucrt14.2/mingw64/share/cmake-3.30/Modules/Platform/Windows.cmake"
   "C:/mingw64_ucrt14.2/mingw64/share/cmake-3.30/Modules/Platform/WindowsPaths.cmake"
   "C:/mingw64_ucrt14.2/mingw64/share/cmake-3.30/Modules/SelectLibraryConfigurations.cmake"
-  "D:/GitHub/Project_memory_cards/CMakeLists.txt"
+  "D:/GitHub/project_copy/CMakeLists.txt"
   "CMakeFiles/3.30.4/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.30.4/CMakeRCCompiler.cmake"
   "CMakeFiles/3.30.4/CMakeSystem.cmake"
+  "D:/GitHub/project_copy/tests/CMakeLists.txt"
   )
 
 # The corresponding makefile is:
@@ -45,9 +46,11 @@ set(CMAKE_MAKEFILE_OUTPUTS
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/CMakeDirectoryInformation.cmake"
+  "tests/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/flipping_cards.dir/DependInfo.cmake"
+  "tests/CMakeFiles/run_tests.dir/DependInfo.cmake"
   )

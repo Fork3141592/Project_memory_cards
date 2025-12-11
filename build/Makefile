@@ -56,10 +56,10 @@ RM = C:\mingw64_ucrt14.2\mingw64\bin\cmake.exe -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\GitHub\Project_memory_cards
+CMAKE_SOURCE_DIR = D:\GitHub\project_copy
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\GitHub\Project_memory_cards\build
+CMAKE_BINARY_DIR = D:\GitHub\project_copy\build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -131,9 +131,9 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\GitHub\Project_memory_cards\build\CMakeFiles D:\GitHub\Project_memory_cards\build\\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\GitHub\project_copy\build\CMakeFiles D:\GitHub\project_copy\build\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\GitHub\Project_memory_cards\build\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\GitHub\project_copy\build\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -172,6 +172,19 @@ flipping_cards: cmake_check_build_system
 flipping_cards/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\flipping_cards.dir\build.make CMakeFiles/flipping_cards.dir/build
 .PHONY : flipping_cards/fast
+
+#=============================================================================
+# Target rules for targets named run_tests
+
+# Build rule for target.
+run_tests: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 run_tests
+.PHONY : run_tests
+
+# fast build rule for target.
+run_tests/fast:
+	$(MAKE) $(MAKESILENT) -f tests\CMakeFiles\run_tests.dir\build.make tests/CMakeFiles/run_tests.dir/build
+.PHONY : run_tests/fast
 
 lib/Graph_lib/GUI.obj: lib/Graph_lib/GUI.cpp.obj
 .PHONY : lib/Graph_lib/GUI.obj
@@ -306,6 +319,7 @@ help:
 	@echo ... list_install_components
 	@echo ... rebuild_cache
 	@echo ... flipping_cards
+	@echo ... run_tests
 	@echo ... lib/Graph_lib/GUI.obj
 	@echo ... lib/Graph_lib/GUI.i
 	@echo ... lib/Graph_lib/GUI.s
