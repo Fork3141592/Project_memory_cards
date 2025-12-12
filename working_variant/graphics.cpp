@@ -16,7 +16,6 @@ extern std::vector<int> selected_cards;
 extern bool can_flip;
 extern int attempts_counter;
 extern bool showing_initial_twos;
-extern Callback card_callbacks[TOTAL_CARDS];
 
 // Функция для получения пути к картинке по значению
 std::string get_image_path(int value) {
@@ -209,7 +208,7 @@ void start_game()
         CardState card;
         
         // Создаем прямоугольник для карточки
-        card.rect = new Rectangle(Point(x, y), CARD_WIDTH, CARD_HEIGHT);
+        card.rect = new Graph_lib::Rectangle(Point(x, y), CARD_WIDTH, CARD_HEIGHT);
         card.rect->set_fill_color(Color::blue);
         card.rect->set_color(Color::dark_blue);
         main_window->attach(*card.rect);
@@ -227,8 +226,9 @@ void start_game()
         }
         
         // Создаем кнопку для карточки
-        card.button = new Button(Point(x, y), CARD_WIDTH, CARD_HEIGHT, "", card_callbacks[i]);
+        card.button = new CardButton(Point(x, y), CARD_WIDTH, CARD_HEIGHT, i);
         main_window->attach(*card.button);
+
         
         card.flipped = false;
         card.removed = false;

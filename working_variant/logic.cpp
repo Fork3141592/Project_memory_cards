@@ -16,13 +16,20 @@ bool can_flip = true;
 int attempts_counter = 0;
 bool showing_initial_twos = false;
 
-// Массив callback-функций для карточек
-Callback card_callbacks[TOTAL_CARDS] = {
-    card1_callback, card2_callback, card3_callback, card4_callback, card5_callback,
-    card6_callback, card7_callback, card8_callback, card9_callback, card10_callback,
-    card11_callback, card12_callback, card13_callback, card14_callback, card15_callback,
-    card16_callback, card17_callback, card18_callback, card19_callback, card20_callback
-};
+// Реализация CardButton
+CardButton::CardButton(Point xy, int w, int h, int idx)
+    : Button(xy, w, h, "", CardButton::cb_static), index(idx)
+{}
+
+void CardButton::cb_static(Address, Address pw)
+{
+    reference_to<CardButton>(pw).cb_pressed();
+}
+
+void CardButton::cb_pressed()
+{
+    handle_card_click(index);
+}
 
 // Функция: Обновление отображения карточки
 void update_card_display(int card_index)
@@ -94,28 +101,6 @@ void handle_card_click(int card_index)
         }
     }
 }
-
-// Callback функции для карточек
-void card1_callback(Address, Address) { handle_card_click(0); }
-void card2_callback(Address, Address) { handle_card_click(1); }
-void card3_callback(Address, Address) { handle_card_click(2); }
-void card4_callback(Address, Address) { handle_card_click(3); }
-void card5_callback(Address, Address) { handle_card_click(4); }
-void card6_callback(Address, Address) { handle_card_click(5); }
-void card7_callback(Address, Address) { handle_card_click(6); }
-void card8_callback(Address, Address) { handle_card_click(7); }
-void card9_callback(Address, Address) { handle_card_click(8); }
-void card10_callback(Address, Address) { handle_card_click(9); }
-void card11_callback(Address, Address) { handle_card_click(10); }
-void card12_callback(Address, Address) { handle_card_click(11); }
-void card13_callback(Address, Address) { handle_card_click(12); }
-void card14_callback(Address, Address) { handle_card_click(13); }
-void card15_callback(Address, Address) { handle_card_click(14); }
-void card16_callback(Address, Address) { handle_card_click(15); }
-void card17_callback(Address, Address) { handle_card_click(16); }
-void card18_callback(Address, Address) { handle_card_click(17); }
-void card19_callback(Address, Address) { handle_card_click(18); }
-void card20_callback(Address, Address) { handle_card_click(19); }
 
 // Функция для сброса игрового состояния
 void reset_game_state()
@@ -246,7 +231,8 @@ void shuffle_remaining_cards()
                 }
             }
             
-            update_card_display(&card - &cards[0]);
+            int idx = &card - &cards[0];
+            update_card_display(idx);
         }
     }
     
