@@ -21,13 +21,14 @@ extern Callback card_callbacks[TOTAL_CARDS];
 // Функция для получения пути к картинке по значению
 std::string get_image_path(int value) {
     if (value == 2) {
-        return "images/in6.jpg";  // Для двойки используем особую картинку
+        return "images/im6.jpg";  // Для двойки используем особую картинку
     } else if (value >= 1 && value <= 10 && value != 6) {
         return "images/im" + std::to_string(value) + ".jpg";
     } else {
         return "images/im2.jpg";  // Запасной вариант
     }
 }
+
 
 // Начать игру после задержки
 void start_game_after_delay(void*)
@@ -209,7 +210,7 @@ void start_game()
         CardState card;
         
         // Создаем прямоугольник для карточки
-        card.rect = new Rectangle(Point(x, y), CARD_WIDTH, CARD_HEIGHT);
+        card.rect = new Graph_lib::Rectangle(Point(x, y), CARD_WIDTH, CARD_HEIGHT);
         card.rect->set_fill_color(Color::blue);
         card.rect->set_color(Color::dark_blue);
         main_window->attach(*card.rect);
@@ -319,6 +320,7 @@ int main()
     try {
         Graph_lib::Window win(Point(100, 100), 600, 600, "Карточки-перевёртыши");
         main_window = &win;
+        main_window->resizable(nullptr); //для сохранения масштаба
         create_main_menu();
         
         return gui_main();
